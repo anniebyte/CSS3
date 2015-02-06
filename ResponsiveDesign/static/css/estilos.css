@@ -1,0 +1,160 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+header
+{
+	background: white;
+}
+header figure
+{
+	width: 200px;
+	margin: 3em auto;
+}
+header figure img
+{
+	width: 100%;
+	border-radius: 50%;
+}
+header nav ul
+{
+	margin: 0;
+	list-style: none;
+	text-align: center;
+}
+header nav ul li
+{
+	background: rgba(200, 205, 208, 1);
+	border-radius: 2px;
+	display: inline-block;
+	margin: 1em;
+}
+header nav ul li a
+{
+	display: block;
+	padding: .2em 3em;
+	text-decoration: none;
+	color: white;
+}
+#QuienSoy
+{
+	background: rgba(213, 218, 223, 1);
+	border: 2px solid rgba(182, 188, 193, 1);
+	padding: 8em 0;
+}
+#QuienSoy h1, #QuienSoy p
+{
+	text-align: center;
+}
+#Posts
+{
+	padding: 5em 1em;
+}
+#Posts article
+{
+	width: 380px;
+	margin: 1em 2em;
+	display: inline-block;
+}
+#Posts article figure
+{
+	width: 70%;
+	border: 1px solid rgba(182, 188, 193, 1);
+	padding: 0;
+	margin: 0 auto;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+	-o-box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-ms-transition: .4s;
+	-o-transition: .4s;
+	transition: .4s;
+}
+#Posts article figure:hover
+{
+	-webkit-box-shadow: 0px 0px 70px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 70px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0px 0px 70px rgba(0,0,0,0.2);
+	-o-box-shadow: 0px 0px 70px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 70px rgba(0,0,0,0.2);
+}
+#Posts article figure img
+{
+	width: 100%;
+}
+#Posts article figure figcaption h3
+{
+	text-align: center;
+}
+#Posts article p
+{
+	text-align: justify;
+}
+footer
+{
+	background: rgba(213, 218, 223, 1);
+	border-top: 2px solid rgba(182, 188, 193, 1);
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+footer div
+{
+	display: inline-block;
+	width: 27%;
+	height: 250px;
+	padding: 0;
+	margin: 1em 3.125%;
+}
+footer div h3
+{
+	text-align: left;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+footer div
+{
+	float: left;
+}
+footer #marnies div
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+footer #marnies div figure
+{
+	width: 70px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+footer #marnies div figure img
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
