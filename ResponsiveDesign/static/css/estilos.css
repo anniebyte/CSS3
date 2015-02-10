@@ -74,6 +74,29 @@ header nav ul li a
 	-ms-transition: .4s;
 	-o-transition: .4s;
 	transition: .4s;
+	position: relative;
+}
+#Posts article figure span
+{
+	color: pink;
+	position: absolute;
+	font-size: 3em;
+	top: 0;
+	left: 50%;
+	opacity: 0;
+	margin-top: -25px;
+	margin-left: -25px;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-ms-transition: .4s;
+	-o-transition: .4s;
+	transition: .4s;
+}
+#Posts article figure:hover > span
+{
+	top: 50%;
+	opacity: 1;
+	display: block;
 }
 #Posts article figure:hover
 {
@@ -127,21 +150,27 @@ footer #marnies div
 	margin: 0;
 	padding: 0;
 }
-footer #marnies div figure
+footer #marnies div a
 {
-	width: 70px;
+	text-decoration: none;
+	color: white;
+	font-size: 3em;
 	display: inline-block;
-	margin: 0;
-	padding: 0;
+	margin: .2em .4em;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-ms-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
 }
-footer #marnies div figure img
+footer #marnies div a:hover
 {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-} 
-
-
+	color: gray;
+}
+.miMenu
+{
+	display: none;
+}
 
 
 
